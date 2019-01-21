@@ -1,0 +1,3 @@
+[submodule "stow/password-store/.password-store"]
+	path = stow/password-store/.password-store
+	url = git@github.com:robinbb/dot-password-store.git
