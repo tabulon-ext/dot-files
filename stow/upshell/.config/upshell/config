@@ -1,6 +1,8 @@
 "$UPSHELL"/modules/default
 "$UPSHELL"/modules/xdg
 "$UPSHELL"/modules/nix
+"$UPSHELL"/modules/awscli
+"$UPSHELL"/modules/less
 "$UPSHELL"/modules/vim
 "$UPSHELL"/modules/tmux
 "$UPSHELL"/modules/grep
