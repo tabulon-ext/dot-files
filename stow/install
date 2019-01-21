@@ -2,6 +2,8 @@
 
 set -eu
 
+git submodule update --init --recursive
+
 for stowdir in $( find . -type d -depth 1 | sed 's/^..//' )
 do
    echo "Stowing $stowdir..."
