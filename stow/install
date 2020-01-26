@@ -4,7 +4,7 @@ set -eu
 
 git submodule update --init --recursive
 
-for stowdir in $( find . -type d -depth 1 | sed 's/^..//' )
+for stowdir in $( find . -maxdepth 1 -type d | sed 's/^..//' )
 do
    echo "Stowing $stowdir..."
    stow --target=$HOME "$stowdir"
